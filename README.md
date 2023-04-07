@@ -1,0 +1,8 @@
+# Attrition-Project
+Attrition in human resources refers to the gradual loss of employees over time. In general, relatively high attrition is problematic for companies. HR professionals often assume a leadership role in designing company compensation programs, work culture and motivation systems that help the organization retain top employees.
+
+This project is to uncover the factors that lead to employee attrition through Exploratory Data Analysis, and explore them by using various classification models to predict if an employee is likely to quit. This could greatly increase the HR’s ability to intervene on time and remedy the situation to prevent attrition
+
+Conclusion
+
+We have built a predictive model to predict employee attrition, from some basic Exploratory Data Analysis to feature engineering as well as implementing two tree based models in the form of a Random Forest and a Gradient Boosting classifier. The models were built with a balanced data. Also based on the F1-Scores and Recall of the models, the Gradient Boost model performed better than Random Forest model with an F1-score of 43% and Recall of 35%, although the Random Forest model had a better precision score of 100%. In terms of accuracy, Random Forest had the best generalised model. We also did some analysis and used feature importance to determine the most import reason for employee attrition. Based on the analysis and some machine learning, we can conclude that Job satisfaction and Number of companies worked are the main reasons for attrition, and we can also predict which employees leave the company and then methodologies can be developed to retain employees.
